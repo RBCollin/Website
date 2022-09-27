@@ -22,6 +22,7 @@ def about_me():
 
     st.write("Merging Engineering knowledge and process vision with Data Science techniques through the Python programming language, using statistical analysis, machine and deep learning to solve problems and optimize processes.")
     st.write("[>Degree-Diploma<](https://acadigitus.univasf.edu.br/diploma/3984-3984-9d6689938fa3%20)")
+    st.error("Please use a desktop or laptop computer to get a better experience.")
 
     st.write('___')
 
