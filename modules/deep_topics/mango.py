@@ -34,9 +34,9 @@ def mango_count():
     #col21.error ('### Desempenho:')
 
     from PIL import Image
-    img_cpu = Image.open('images/yolo_mango_graphs\cpu_usage.png')
-    img_gpu = Image.open('images/yolo_mango_graphs\gpu_usage_models.png')
-    img_MAP = Image.open('images/yolo_mango_graphs\map_metric.png')
+    img_cpu = Image.open('images/yolo_mango_graphs/cpu_usage.png')
+    img_gpu = Image.open('images/yolo_mango_graphs/gpu_usage_models.png')
+    img_MAP = Image.open('images/yolo_mango_graphs/map_metric.png')
     img_resume = Image.open('images/yolo_mango_graphs/resume_metrics.png')
 
 
