@@ -1,0 +1,162 @@
+#st.subheader('Hello, i am Bernard Collin :wave: ')
+from pickletools import stackslice
+from streamlit_option_menu import option_menu
+import streamlit as st
+import requests 
+from streamlit_lottie import st_lottie
+
+import webbrowser
+
+def about_me():
+    coluna1, coluna2= st.columns([1,1])
+
+
+    coluna1.success('## Hello, i am Bernard Collin :wave: ')
+
+
+
+
+
+    st.title('A Data Scientist and Production Engineer :snake:')
+
+    st.write("Merging Engineering knowledge and process vision with Data Science techniques through the Python programming language, using statistical analysis, machine and deep learning to solve problems and optimize processes.")
+    st.write("[>Degree-Diploma<](https://acadigitus.univasf.edu.br/diploma/3984-3984-9d6689938fa3%20)")
+
+    st.write('___')
+
+    col1,col2 = st.columns(2)
+
+    with col1:
+        #st.success('### Section A')
+        st.success('## Professional Background:')
+        st.write('___')
+
+        st.write(' - First, during Production Engineering college I worked as a volunteer for a junior company at the university, where I provided Production Engineering consulting services to other companies in the university region, during this period I worked as a Project Advisor and Quality Advisor and I was responsible for the development and implementation of the 5S model in the company as well as a new Personal/Professional Performance Feedback model.')
+
+        st.write(' - ###### Next, after that period I was a Production Engineering intern, where I worked on the standardization and mapping of the internal processes of a grape producing farm in the region of Vale do São Francisco.')
+
+        st.write('-  Then, still in college and with a good base of statistics and mathematics acquired, I sought to specialize in Data Science and Python, I started to study Python and Machine Learning while still in college to combine the vision of Data Science with Production Engineering, with that I was able to do my final course project using practical knowledge in both areas (this project can be consulted in the Published Works section).')
+        
+        st.write(' - ###### Finally, close to finishing my undergraduate course I got a job as a Data Scientist in the largest producer and exporter of mangoes in Brazil, where I could develop myself and develop a series of Data Analysis, Automation and Artificial Intelligence projects, and some of them, you can be consult it on this website.')
+        st.write('___')
+
+    colu1, colu2 = st.columns([1,0.1])
+    col11,col22,col33, col44 = st.columns(4)
+
+    #colu1.success('### Section B')
+    colu1.success('## Skills and Experience:')
+
+
+    col11.write("""
+        - #### Producion Engineering:
+            - Supply Chain Management;
+            - Bussiness;
+            - Marketing;
+            - Project Management;
+            - Statistics;
+            - Process Control. """ )
+    col22.write( """
+        - #### Python:
+            - Data Analysis and Pre-Processing;
+                - Pandas, Numpy, Z-score, Scipy, StandardScaler, MinMaxScaler, RobustScaler, OneHotEncoder..
+            - Data Visualization;
+                - Plotly, Seaborn, Matplotlib;
+            - Deploy;
+                - Streamlit and Dash.
+            - Computer Vision:
+                -  OpenCV
+            - Automation;
+            - Exception Handling.""")
+
+    col33.write( """   
+        - #### Machine Learning and Deep Learning:
+            - Scikit-Learn, XGBoost;
+            - Unsurpervised and Supervised Learning;
+            - PyTorch;
+            - Convolutional Neural Networks;
+            - Artificial Neural Networks;
+            - Trackers;
+            - Computer Vision for Deep Learning. """)
+    col44.write( """
+        - #### Others Skills;
+            - Power BI;
+            - OBS Studio;
+            - Wondershare Filmora;
+            - DBeaver - Database;
+            - SQLite;
+            - Edge-Impulse;
+            - Ultralytics;
+            - Roboflow.
+                """)
+
+    with col2:
+        
+        def get_lottie(url):
+            r = requests.get(url)
+            if r.status_code != 200:
+                return None
+            return r.json()
+        st.write(' ')
+        lottie_icon = get_lottie('https://assets4.lottiefiles.com/packages/lf20_ndqyrqfd.json')
+        st_lottie(lottie_icon, height = 450, key = 'lttie')
+        
+    with st.container():
+
+        st.write("---")
+        st.success("### Get in touch with me:")
+        st.write("##")
+
+        # Documention: https://formsubmit.co/ !!! CHANGE EMAIL ADDRESS !!!
+        contact_form = """
+        <form action="https://formsubmit.co/bernard.collin@hotmail.com" method="POST">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="text" name="name" placeholder="Your name" required>
+            <input type="email" name="email" placeholder="Your email" required>
+            <textarea name="message" placeholder="Your message here" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        """
+        left_column, right_column = st.columns(2)
+
+        with left_column:
+            st.markdown(contact_form, unsafe_allow_html=True)
+        with right_column:
+            from PIL import Image
+            img = Image.open('soc_img.png')
+            newsize = (1300,700)
+            img2 = img.resize(newsize)
+
+                ########## JANELA LATERAL ##########
+
+            st.image(img, use_column_width=True)
+            st.empty()
+
+
+    selected = option_menu(
+        menu_title = ' ',
+        options = ['Linkedin','Whatsapp','CV-Europass','Gmail'],
+        icons = ['linkedin','whatsapp', 'journal-album','envelope'],
+        menu_icon = ' ',
+        default_index = 3,
+        orientation = 'horizontal',
+        styles={
+                "container": {"padding": "0!important", "background-color": "##00172B"},
+                "icon": {"color": "#39B6B0", "font-size": "28px"}, 
+                "nav-link": {"font-size": "12px", "text-align": "left", "margin":"0px", "--hover-color": "#eee"},
+                "nav-link-selected": {"background-color": "#00172B","font-size": "14px"},
+            }
+    )
+
+    if selected == 'CV-Europass':
+        webbrowser.open('https://europa.eu/europass/eportfolio/api/eprofile/shared-profile/4bda4bc4-878d-4476-93c7-f5d5400d662a?view=html')
+
+    if selected == 'Linkedin':
+        webbrowser.open('https://www.linkedin.com/in/bernard-collin-b4a9b611b/')
+
+    if selected == 'Whatsapp':
+        webbrowser.open('https://wa.me/5575982381806')
+
+    if selected == 'Gmail':
+        st.write('bernardcollin92@gmail.com')
+
+        ### COLOCAR O DIPLOMA TAMBEM PODE SER
