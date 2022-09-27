@@ -143,7 +143,7 @@ def about_me():
         styles={
                 "container": {"padding": "0!important", "background-color": "##00172B"},
                 "icon": {"color": "#39B6B0", "font-size": "28px"}, 
-                "nav-link": {"font-size": "12px", "text-align": "left", "margin":"5px", "--hover-color": "#eee"},
+                "nav-link": {"font-size": "12px", "text-align": "left", "margin":"0px", "--hover-color": "#eee"},
                 "nav-link-selected": {"background-color": "#00172B","font-size": "14px"},
             }
     )
