@@ -39,8 +39,8 @@ def clusters():
     col3.image(img, use_column_width=True)
 
     col1.write(""" 
-    - #### The choice of 4 clusters was due to the fact that it has an acceptable number of clusters and a good Silhoutte Score value, it can be seen from the graphs that the amount of K=4 allows all groups to have a proportional size, the groups are above the Silhoutte Score line and with few residues present in the clusters (negative X axis).
-        - #### It is worth mentioning that the data were previously normalized and standardized to not bias the clustering and affect the centroids of the groups.
+    - ##### The choice of 4 clusters was due to the fact that it has an acceptable number of clusters and a good Silhoutte Score value, it can be seen from the graphs that the amount of K=4 allows all groups to have a proportional size, the groups are above the Silhoutte Score line and with few residues present in the clusters (negative X axis).
+        - ###### It is worth mentioning that the data were previously normalized and standardized to not bias the clustering and affect the centroids of the groups.
     
         """)
     
