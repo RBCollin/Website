@@ -148,7 +148,9 @@ def about_me():
     )
 
     if selected == 'CV-Europass':
-        webbrowser.open_new_tab('https://europa.eu/europass/eportfolio/api/eprofile/shared-profile/4bda4bc4-878d-4476-93c7-f5d5400d662a?view=html')
+        def open():
+            webbrowser.open_new_tab('https://europa.eu/europass/eportfolio/api/eprofile/shared-profile/4bda4bc4-878d-4476-93c7-f5d5400d662a?view=html')
+        open()
  
 
     if selected == 'Linkedin':
