@@ -161,6 +161,10 @@ def about_me():
     if selected == 'Gmail':
         st.write('bernardcollin92@gmail.com')
        
-    if st.button('E'):
-        webbrowser.open_new_tab('https://wa.me/5575982381806')
+    if st.button('Go to Streamlit'):
+        js = "window.open('https://wa.me/5575982381806')"  # New tab or window
+        #js = "window.location.href = 'https://www.streamlit.io/'"  # Current tab
+        html = '<img src onerror="{}">'.format(js)
+        div = Div(text=html)
+        st.bokeh_chart(div)
 
