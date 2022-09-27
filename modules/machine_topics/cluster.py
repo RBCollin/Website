@@ -49,11 +49,11 @@ def clusters():
         ### Graphical representation of the Silhoutte Score Metric """ )
 
     col1.write(""" 
-    - #### I usually choose a number of clusters that have a balance between:
-        - ##### A good number of clusters;
-        - ##### Silhoutte Score Value;
-        - ##### Proportion between groups;
-        - ##### Silhoutte Score value below all clusters;
-        - ##### Intensity of the number of residues by groups.
+    - ##### I usually choose a number of clusters that have a balance between:
+        - ###### A good number of clusters;
+        - ###### Silhoutte Score Value;
+        - ###### Proportion between groups;
+        - ###### Silhoutte Score value below all clusters;
+        - ###### Intensity of the number of residues by groups.
     
     """ )
