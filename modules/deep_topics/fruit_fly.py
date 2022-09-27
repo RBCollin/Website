@@ -66,9 +66,9 @@ def fruit_fly():
 
 
     from PIL import Image
-    img1 = Image.open('images/cnn/Im_1out.jpeg')
+    img1 = Image.open('images/cnn/im_1out.jpeg')
     
-    img3 = Image.open('images/cnn/Im_1inpu.jpeg')
+    img3 = Image.open('images/cnn/im_1inpu.jpeg')
 
     newsize = (300,400)
     img1_n = img1.resize(newsize)
