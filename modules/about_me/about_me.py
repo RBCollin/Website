@@ -161,5 +161,8 @@ def about_me():
 
     if selected == 'Gmail':
         st.write('bernardcollin92@gmail.com')
+       
+    if st.button('E'):
+        webbrowser.open_new_tab('https://wa.me/5575982381806')
 
         ### COLOCAR O DIPLOMA TAMBEM PODE SER
