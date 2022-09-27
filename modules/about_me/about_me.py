@@ -148,9 +148,8 @@ def about_me():
     )
 
     if selected == 'CV-Europass':
-        def open():
-            webbrowser.open_new_tab('https://europa.eu/europass/eportfolio/api/eprofile/shared-profile/4bda4bc4-878d-4476-93c7-f5d5400d662a?view=html')
-        open()
+        webbrowser.open_new_tab('https://europa.eu/europass/eportfolio/api/eprofile/shared-profile/4bda4bc4-878d-4476-93c7-f5d5400d662a?view=html')
+        
  
 
     if selected == 'Linkedin':
@@ -165,4 +164,5 @@ def about_me():
     if st.button('E'):
         webbrowser.open_new_tab('https://wa.me/5575982381806')
 
-        ### COLOCAR O DIPLOMA TAMBEM PODE SER
+    if st.button('E'):
+        webbrowser.open_new_tab('https://wa.me/5575982381806')
