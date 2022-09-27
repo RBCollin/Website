@@ -148,13 +148,13 @@ def about_me():
     )
 
     if selected == 'CV-Europass':
-        webbrowser.open('https://europa.eu/europass/eportfolio/api/eprofile/shared-profile/4bda4bc4-878d-4476-93c7-f5d5400d662a?view=html')
+        webbrowser.open('https://europa.eu/europass/eportfolio/api/eprofile/shared-profile/4bda4bc4-878d-4476-93c7-f5d5400d662a?view=html', new=2)
 
     if selected == 'Linkedin':
-        webbrowser.open('https://www.linkedin.com/in/bernard-collin-b4a9b611b/')
+        webbrowser.open('https://www.linkedin.com/in/bernard-collin-b4a9b611b/', new=2)
 
     if selected == 'Whatsapp':
-        webbrowser.open('https://wa.me/5575982381806')
+        webbrowser.open('https://wa.me/5575982381806', new=2)
 
     if selected == 'Gmail':
         st.write('bernardcollin92@gmail.com')
