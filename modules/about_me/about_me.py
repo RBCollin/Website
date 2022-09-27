@@ -132,48 +132,50 @@ def about_me():
             st.image(img, use_column_width=True)
             st.empty()
 
+    coluna1, coluna2, coluna3 = st.columns([0.5,1,0.5])
+    with coluna2:
+            
+        selected = option_menu(
+            menu_title = ' ',
+            options = ['Linkedin','Whatsapp','CV-Europass','Gmail'],
+            icons = ['linkedin','whatsapp', 'journal-album','envelope'],
+            menu_icon = ' ',
+            default_index = 3,
+            orientation = 'horizontal',
+            styles={
+                    "container": {"padding": "0!important", "background-color": "##00172B"},
+                    "icon": {"color": "#39B6B0", "font-size": "28px"}, 
+                    "nav-link": {"font-size": "12px", "text-align": "left", "margin":"0px", "--hover-color": "#eee"},
+                    "nav-link-selected": {"background-color": "#00172B","font-size": "14px"},
+                }
+        )
 
-    selected = option_menu(
-        menu_title = ' ',
-        options = ['Linkedin','Whatsapp','CV-Europass','Gmail'],
-        icons = ['linkedin','whatsapp', 'journal-album','envelope'],
-        menu_icon = ' ',
-        default_index = 3,
-        orientation = 'horizontal',
-        styles={
-                "container": {"padding": "0!important", "background-color": "##00172B"},
-                "icon": {"color": "#39B6B0", "font-size": "28px"}, 
-                "nav-link": {"font-size": "12px", "text-align": "left", "margin":"0px", "--hover-color": "#eee"},
-                "nav-link-selected": {"background-color": "#00172B","font-size": "14px"},
-            }
-    )
+        if selected == 'CV-Europass':
+            js = "window.open('https://europa.eu/europass/eportfolio/api/eprofile/shared-profile/4bda4bc4-878d-4476-93c7-f5d5400d662a?view=html')"  # New tab or window
+            #js = "window.location.href = 'https://www.streamlit.io/'"  # Current tab
+            html = '<img src onerror="{}">'.format(js)
+            div = Div(text=html)
+            st.bokeh_chart(div)
 
-    if selected == 'CV-Europass':
-        js = "window.open('https://europa.eu/europass/eportfolio/api/eprofile/shared-profile/4bda4bc4-878d-4476-93c7-f5d5400d662a?view=html')"  # New tab or window
-        #js = "window.location.href = 'https://www.streamlit.io/'"  # Current tab
-        html = '<img src onerror="{}">'.format(js)
-        div = Div(text=html)
-        st.bokeh_chart(div)
-        
- 
 
-    if selected == 'Linkedin':
-        js = "window.open('https://www.linkedin.com/in/bernard-collin-b4a9b611b/')"  # New tab or window
-        #js = "window.location.href = 'https://www.streamlit.io/'"  # Current tab
-        html = '<img src onerror="{}">'.format(js)
-        div = Div(text=html)
-        st.bokeh_chart(div)
- 
 
-    if selected == 'Whatsapp':
-        js = "window.open('https://wa.me/5575982381806')"  # New tab or window
-        #js = "window.location.href = 'https://www.streamlit.io/'"  # Current tab
-        html = '<img src onerror="{}">'.format(js)
-        div = Div(text=html)
-        st.bokeh_chart(div)
+        if selected == 'Linkedin':
+            js = "window.open('https://www.linkedin.com/in/bernard-collin-b4a9b611b/')"  # New tab or window
+            #js = "window.location.href = 'https://www.streamlit.io/'"  # Current tab
+            html = '<img src onerror="{}">'.format(js)
+            div = Div(text=html)
+            st.bokeh_chart(div)
 
-    if selected == 'Gmail':
-        st.write('bernardcollin92@gmail.com')
+
+        if selected == 'Whatsapp':
+            js = "window.open('https://wa.me/5575982381806')"  # New tab or window
+            #js = "window.location.href = 'https://www.streamlit.io/'"  # Current tab
+            html = '<img src onerror="{}">'.format(js)
+            div = Div(text=html)
+            st.bokeh_chart(div)
+
+        if selected == 'Gmail':
+            st.write('bernardcollin92@gmail.com')
         
     
 
