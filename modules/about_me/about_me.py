@@ -137,7 +137,7 @@ def about_me():
             
         selected = option_menu(
             menu_title = ' ',
-            options = ['Linkedin','Whatsapp','CV-Europass','Git','Gmail'],
+            options = ['Linkedin','Whatsapp','CV-Europass','Git - Website','Gmail'],
             icons = ['linkedin','whatsapp', 'journal-album','github','envelope'],
             menu_icon = ' ',
             default_index = 3,
