@@ -137,8 +137,8 @@ def about_me():
             
         selected = option_menu(
             menu_title = ' ',
-            options = ['Linkedin','Whatsapp','CV-Europass','Gmail'],
-            icons = ['linkedin','whatsapp', 'journal-album','envelope'],
+            options = ['Linkedin','Whatsapp','CV-Europass','Git','Gmail'],
+            icons = ['linkedin','whatsapp', 'journal-album','github','envelope'],
             menu_icon = ' ',
             default_index = 3,
             orientation = 'horizontal',
@@ -173,9 +173,20 @@ def about_me():
             html = '<img src onerror="{}">'.format(js)
             div = Div(text=html)
             st.bokeh_chart(div)
+            
+        if selected == 'Git - Website':
+     
+            js = "window.open('https://github.com/RBCollin/Website')"  # New tab or window
+            #js = "window.location.href = 'https://www.streamlit.io/'"  # Current tab
+            html = '<img src onerror="{}">'.format(js)
+            div = Div(text=html)
+            st.bokeh_chart(div)
+     
 
         if selected == 'Gmail':
             st.write('bernardcollin92@gmail.com')
+            
+            
         
     
 
