@@ -164,5 +164,3 @@ def about_me():
     if st.button('E'):
         webbrowser.open_new_tab('https://wa.me/5575982381806')
 
-    if st.button('E'):
-        webbrowser.open_new_tab('https://wa.me/5575982381806')
