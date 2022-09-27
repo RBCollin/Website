@@ -95,7 +95,7 @@ def regression_pag():
 
     coll11.image(img, use_column_width=True)
     coll22.write('')
-    coll22.write(' - ##### The model performed very well with a fit of 87.09% for the test data and predicted totals for the group very close to the actual percentages, perceptible by the pie charts for each group. Such metrics reinforce the good fit, identified in the performance topic, when the model was put into practice with new data.')
+    coll22.write(' - ##### The model performed very well with a fit of 87.09% for the test data and predicted totals very close to the actual percentages, perceptible by the pie charts for each sub-group. Such metrics reinforce the good fit, identified in the performance topic, when the model was put into practice with new data.')
     coll22.write('___')
 
     #coll22.write(' - ###### A linha verde no gráfico exemplifica o erro real para cada previsão fornecida pelo modelo, perceb-se que a mesma concentra-se aço entre 5 e -5 %, o que mais uma vez reflete a sua métrica RMSE de 3.86 % ')
