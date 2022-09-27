@@ -176,7 +176,7 @@ def about_me():
             
         if selected == 'Git - Website':
      
-            js = "window.open('https://github.com/RBCollin/Website')"  # New tab or window
+            js = "window.open('https://github.com/RBCollin/Website-Presentation')"  # New tab or window
             #js = "window.location.href = 'https://www.streamlit.io/'"  # Current tab
             html = '<img src onerror="{}">'.format(js)
             div = Div(text=html)
