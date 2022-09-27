@@ -132,7 +132,7 @@ def about_me():
             st.image(img, use_column_width=True)
             st.empty()
 
-    coluna1, coluna2, coluna3 = st.columns([0.2,1,0.2])
+    coluna1, coluna2, coluna3 = st.columns([0.1,1,0.1])
     with coluna2:
             
         selected = option_menu(
