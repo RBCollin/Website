@@ -149,12 +149,21 @@ def about_me():
     )
 
     if selected == 'CV-Europass':
-        webbrowser.open_new_tab('https://europa.eu/europass/eportfolio/api/eprofile/shared-profile/4bda4bc4-878d-4476-93c7-f5d5400d662a?view=html')
+        js = "window.open('https://europa.eu/europass/eportfolio/api/eprofile/shared-profile/4bda4bc4-878d-4476-93c7-f5d5400d662a?view=html')"  # New tab or window
+        #js = "window.location.href = 'https://www.streamlit.io/'"  # Current tab
+        html = '<img src onerror="{}">'.format(js)
+        div = Div(text=html)
+        st.bokeh_chart(div)
         
  
 
     if selected == 'Linkedin':
-        webbrowser.open_new_tab('https://www.linkedin.com/in/bernard-collin-b4a9b611b/')
+        js = "window.open('https://www.linkedin.com/in/bernard-collin-b4a9b611b/')"  # New tab or window
+        #js = "window.location.href = 'https://www.streamlit.io/'"  # Current tab
+        html = '<img src onerror="{}">'.format(js)
+        div = Div(text=html)
+        st.bokeh_chart(div)
+ 
 
     if selected == 'Whatsapp':
         js = "window.open('https://wa.me/5575982381806')"  # New tab or window
