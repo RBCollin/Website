@@ -132,12 +132,12 @@ def about_me():
             st.image(img, use_column_width=True)
             st.empty()
 
-    coluna1, coluna2, coluna3 = st.columns([0.5,1,0.5])
+    coluna1, coluna2, coluna3 = st.columns([0.2,1,0.2])
     with coluna2:
             
         selected = option_menu(
             menu_title = ' ',
-            options = ['Linkedin','Whatsapp','CV-Europass','Git - Website','Gmail'],
+            options = ['Linkedin','Whatsapp','CV-Europass','Git','Gmail'],
             icons = ['linkedin','whatsapp', 'journal-album','github','envelope'],
             menu_icon = ' ',
             default_index = 3,
@@ -174,9 +174,9 @@ def about_me():
             div = Div(text=html)
             st.bokeh_chart(div)
             
-        if selected == 'Git - Website':
+        if selected == 'Git':
      
-            js = "window.open('https://github.com/RBCollin/Website-Presentation')"  # New tab or window
+            js = "window.open('https://github.com/RBCollin')"  # New tab or window
             #js = "window.location.href = 'https://www.streamlit.io/'"  # Current tab
             html = '<img src onerror="{}">'.format(js)
             div = Div(text=html)
