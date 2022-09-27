@@ -36,21 +36,24 @@ with st.sidebar:
 
 
 if selected == 'Main Projects':
+    coluna1,coluna2,coluna3 = st.columns([0.3,1,0.3])
 
-    selected2 = option_menu(
-    menu_title = 'Projects',
-    options = ['Machine Learning and Analysis','Deep Learning and Computer Vision','Published Works'],
-    icons = ['robot','pip','laptop','journal-text'],
-    menu_icon = 'boxes',
-    default_index = 0,
-        orientation = 'horizontal',
-        styles={
-                "container": {"padding": "0!important", "background-color": "#edf2fb"},
-                "icon": {"color": "#39B6B0", "font-size": "28px"}, 
-                "nav-link": {"font-size": "12px", "text-align": "left", "margin":"0px", "--hover-color": "#eee"},
-                "nav-link-selected": {"background-color": "#00172B","font-size": "14px"},
-            }
-    )
+    with coluna2:
+        
+        selected2 = option_menu(
+        menu_title = 'Projects',
+        options = ['Machine Learning and Analysis','Deep Learning and Computer Vision','Published Works'],
+        icons = ['robot','pip','laptop','journal-text'],
+        menu_icon = 'boxes',
+        default_index = 0,
+            orientation = 'horizontal',
+            styles={
+                    "container": {"padding": "0!important", "background-color": "#edf2fb"},
+                    "icon": {"color": "#39B6B0", "font-size": "28px"}, 
+                    "nav-link": {"font-size": "12px", "text-align": "left", "margin":"0px", "--hover-color": "#eee"},
+                    "nav-link-selected": {"background-color": "#00172B","font-size": "14px"},
+                }
+        )
 
 
     if selected2 ==  'Machine Learning and Analysis':
