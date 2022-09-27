@@ -99,7 +99,7 @@ def mango_count():
     - ####  Front-End: """)
 
     col11, col22 = st.columns(2)
-    video_file = open('images/cnn/video_mango_count.mp4', 'rb')
+    video_file = open('images/cnn/video_mango_count1.mp4', 'rb')
     video_bytes = video_file.read()
 
 
