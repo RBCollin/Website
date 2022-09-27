@@ -14,8 +14,8 @@ def clusters():
 
     col1.success('# Clustering')
     
-    col1.write(""" - #### In this section I’ll show the main strategies that generally I use to unsupervised problems. For clustering I really like to use K-Means, evaluating the number of clusters through the metric "Silhoutte Score" as well as the graphic representation of the clusters characterized by this metric. Finally, I use Plotly for 2d or 3d plots when possible to have a dimensional view of the variable groups.""")
-    col1.write(' - #### To achieve these results, K-Means was used as a strategy, determining the number of clusters through the Silhoutte Score metric and the graphic performance of the groups.')
+    col1.write(""" - ##### In this section I’ll show the main strategies that generally I use to unsupervised problems. For clustering I really like to use K-Means, evaluating the number of clusters through the metric "Silhoutte Score" as well as the graphic representation of the clusters characterized by this metric. Finally, I use Plotly for 2d or 3d plots when possible to have a dimensional view of the variable groups.""")
+    col1.write(' - ###### To achieve these results, K-Means was used as a strategy, determining the number of clusters through the Silhoutte Score metric and the graphic performance of the groups.')
 
     col1.write('___')
     col1.write(' ')
