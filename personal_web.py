@@ -10,12 +10,12 @@ import webbrowser
 
 st.set_page_config(layout="wide", page_title="Bernard's Webpage", page_icon=":bar_chart:",)
 
-# def local_css(file_name):
-#     with open(file_name) as f:
-#         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+def local_css(file_name):
+    with open(file_name) as f:
+        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 
-# local_css("style/style.css")
+local_css("style/style.css")
 
 with st.sidebar:
     
