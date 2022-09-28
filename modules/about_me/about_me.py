@@ -68,6 +68,7 @@ def about_me():
                 - Streamlit and Dash.
             - Computer Vision:
                 -  OpenCV
+            - Jobs;
             - Automation;
             - Exception Handling.""")
 
