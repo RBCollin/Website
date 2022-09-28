@@ -185,6 +185,7 @@ def about_me():
             div = Div(text=html)
             st.bokeh_chart(div)
      
+    
 
         if selected == 'Gmail':
             st.write('bernardcollin92@gmail.com')
