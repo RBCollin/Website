@@ -62,7 +62,7 @@ def about_me():
     col22.write( """
         - #### Python:
             - Data Analysis and Pre-Processing;
-                - Pandas, Numpy, Z-score, Scipy, StandardScaler, MinMaxScaler, RobustScaler, OneHotEncoder..
+                - Pandas, Numpy, Z-score, Scipy, StandardScaler, MinMaxScaler, RobustScaler, OneHotEncoder...
             - Data Visualization;
                 - Plotly, Seaborn, Matplotlib;
             - Deploy;
