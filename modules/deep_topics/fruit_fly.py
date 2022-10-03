@@ -13,7 +13,7 @@ def fruit_fly():
     coluna1, coluna2, coluna3 = st.columns([1,0.1,0.5])
 
     coluna1.write(' ')
-    coluna1.write('##### The objective of this project was to count the number of insects (Pests) present in the traps inside the field, automating the count that was done manually. The model was trained to identify Fruit Flys, one of the main pests in mango plantations.')
+    coluna1.write('##### The objective of this project was to count the number of insects (Pests) present in the traps inside the field, automating the count that was done manually. The model was trained to identify Fruit Flies, one of the main pests in mango plantations.')
 
     st.write('___')
 
