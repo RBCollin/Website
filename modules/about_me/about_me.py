@@ -72,7 +72,6 @@ def about_me():
             - Jobs;
             - Automation;
             - Socket;
-            - NLP: NLTK | Sequence Labeling
             - Exception Handling.""")
 
     col33.write( """   
@@ -83,6 +82,7 @@ def about_me():
             - Convolutional Neural Networks;
             - Artificial Neural Networks;
             - Trackers;
+            - NLP: NLTK | Sequence Labeling
             - Computer Vision for Deep Learning. """)
     col44.write( """
         - #### Others Skills;
