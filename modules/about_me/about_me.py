@@ -71,6 +71,8 @@ def about_me():
                 -  OpenCV
             - Jobs;
             - Automation;
+            - Socket;
+            - NLP: NLTK | Sequence Labeling
             - Exception Handling.""")
 
     col33.write( """   
@@ -88,7 +90,7 @@ def about_me():
             - OBS Studio;
             - Wondershare Filmora;
             - DBeaver - Database;
-            - SQLite;
+            - SQL;
             - Edge-Impulse;
             - Ultralytics;
             - Roboflow.
