@@ -84,7 +84,7 @@ def about_me():
             - Trackers;
             - NLP: NLTK | Sequence Labeling;
             - Computer Vision for Deep Learning;
-            - Mediapipe and Pose Detector. """)
+            - Mediapipe and PoseDetector. """)
     col44.write( """
         - #### Others Skills;
             - Power BI;
