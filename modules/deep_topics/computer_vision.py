@@ -87,7 +87,7 @@ def computer_vision():
     video_file2 = open('images/cnn/pode_detector.mp4', 'rb')
     video_bytes2 = video_file2.read()
     
-    col3.write(' ')
+    col3.video(video_bytes2)
     col3.write('___')
     col3.write(""" - ##### The process that needed to mensurate the productivity. """)
     col3.write('___')
