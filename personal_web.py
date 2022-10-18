@@ -118,6 +118,10 @@ if selected == 'Main Projects':
 
             from modules.deep_topics.fruit_fly import *
             fruit_fly()
+            
+        if selected_dpl = 'Hand Tracking and Pose Estimation':
+            from modules.deep_topics.computer_vision import *
+            computer_vision()
 
     
     if selected2 == 'Published Works':
