@@ -96,8 +96,8 @@ if selected == 'Main Projects':
         with st.sidebar:
             selected_dpl = option_menu(key = 'nham3',
             menu_title = 'Deep Learning and Computer Vision projects',
-            options = ['Tracker and Classification - Mango Count','Object Detection - Fruit Fly (Pest)'],
-            icons = ['123','bounding-box'],
+            options = ['Tracker and Classification - Mango Count','Object Detection - Fruit Fly (Pest)', 'Hand Tracking and Pose Estimation'],
+            icons = ['123','bounding-box','person-bounding-box'],
             menu_icon = 'pip',
             default_index = 0,
             orientation = 'vertical',
