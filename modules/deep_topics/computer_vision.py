@@ -41,7 +41,7 @@ def computer_vision():
     - ####  Hand Tracking: """)
 
     col11, col22 = st.columns(2)
-    video_file = open('images/cnn/hand_detector.mp4', 'rb')
+    video_file = open('images/cnn/hand_final.mp4', 'rb')
     video_bytes = video_file.read()
 
 
