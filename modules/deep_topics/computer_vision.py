@@ -12,7 +12,7 @@ def computer_vision():
     coluna1, coluna2, coluna3 = st.columns([1,0.1,0.5])
 
     coluna1.write(' ')
-    coluna1.write('##### The objective of this project was to meansuring the produtivicty of the people in a process.')
+    coluna1.write('##### The objective of this project was to measure the productivity of employees at a given stage of the process.')
 
     st.write('___')
 
@@ -51,7 +51,7 @@ def computer_vision():
     col22.write(' ')
     col22.write('___')
     col22.write("""
-        - #####  The first step of the propject was detect and mensring the hand positions in space.
+        - #####  The first step of this project was to detect and track the positions of the hands, identifying and collecting the data of the positions in space (X,Y).
         """)
     col22.write('___')
 
@@ -73,7 +73,7 @@ def computer_vision():
     col222.write(' ')
     col222.write('___')
     col222.write("""
-        - ##### Initial teste, localizando como pontos princiapis os cotovelos e avaliando a capacidade de detectar as posições e emitir alertas quando os pontos destacados ultrapassam uma determinada linha.
+        - ##### Initial test with body tracking, locating the main points (elbows) and issuing alerts when the highlighted points exceed a certain line.
         """)
     col222.write('___')
 
@@ -90,5 +90,5 @@ def computer_vision():
     
     col2.video(video_bytes2)
     col3.write('___')
-    col3.write(""" - ##### The process that needed to mensurate the productivity. """)
+    col3.write(""" - ##### Initial test of the program on the production line. """)
     col3.write('___')
