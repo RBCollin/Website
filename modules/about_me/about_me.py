@@ -83,9 +83,7 @@ def about_me():
             - Artificial Neural Networks;
             - Trackers;
             - NLP: NLTK | Sequence Labeling;
-            - Computer Vision for Deep Learning;
-            - Mediapipe;
-            - Tensorflow. """)
+            - Computer Vision for Deep Learning. """)
     col44.write( """
         - #### Others Skills;
             - Power BI;
