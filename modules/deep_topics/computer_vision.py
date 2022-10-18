@@ -1,2 +1,2 @@
 def computer_vision():
-  st.write()
+  st.write('Stand By')
