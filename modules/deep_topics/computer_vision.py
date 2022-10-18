@@ -81,7 +81,7 @@ def computer_vision():
     st.error(""" 
     - ####  Real Time Monitoring - Initial Tests: """)
 
-    col1, col2, col3, col4 = st.columns([1,0.5,1,0.5])
+    col2, col3, col4 = st.columns([0.5,1,0.5])
 
     from PIL import Image
 
