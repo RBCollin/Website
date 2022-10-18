@@ -60,8 +60,8 @@ if selected == 'Main Projects':
             with st.sidebar:
                 selected_ml = option_menu(key = 'nham2',
                 menu_title = 'Machine Learning Projects',
-                options = ['Regression','Clustering','Statistical Process Control','Time Series'],
-                icons = ['graph-down','diagram-3-fill','sliders','graph-up-arrow'],
+                options = ['Regression','Time Series','Clustering','Statistical Process Control'],
+                icons = ['graph-down','graph-up-arrow','diagram-3-fill','sliders'],
                 menu_icon = 'robot',
                 default_index = 0,
                 orientation = 'vertical',
