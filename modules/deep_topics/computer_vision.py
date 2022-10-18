@@ -40,7 +40,7 @@ def computer_vision():
     st.error(""" 
     - ####  Hand Tracking: """)
 
-    col11, col22 = st.columns(2)
+    col11, col22 = st.columns([0.5,1])
     video_file = open('images/cnn/hand_final.mp4', 'rb')
     
     video_bytes = video_file.read()
