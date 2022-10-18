@@ -42,8 +42,8 @@ if selected == 'Main Projects':
         
         selected2 = option_menu(
         menu_title = 'Projects',
-        options = ['Machine Learning and Analysis','Deep Learning and Computer Vision','Published Works'],
-        icons = ['robot','pip','laptop','journal-text'],
+        options = ['Deep Learning and Computer Vision', 'Machine Learning and Analysis','Published Works'],
+        icons = ['robot','gpu-card','journal-text'],
         menu_icon = 'boxes',
         default_index = 0,
             orientation = 'horizontal',
