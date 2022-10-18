@@ -42,6 +42,7 @@ def computer_vision():
 
     col11, col22 = st.columns(2)
     video_file = open('images/cnn/hand_final.mp4', 'rb')
+    
     video_bytes = video_file.read()
 
 
