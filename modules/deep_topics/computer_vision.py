@@ -63,7 +63,7 @@ def computer_vision():
 
     
 
-    col111, col222 = st.columns(2)
+    col111, col222 = st.columns([0.5, 1])
     video_file2 = open('images/cnn/yo_detect_final.mp4', 'rb')
     video_bytes2 = video_file2.read()
 
@@ -81,14 +81,14 @@ def computer_vision():
     st.error(""" 
     - ####  Real Time Monitoring - Initial Tests: """)
 
-    col1, col2, col3, col4 = st.columns([1,1,1,0.5])
+    col1, col2, col3, col4 = st.columns([1,0.5,1,0.5])
 
     from PIL import Image
 
     video_file2 = open('images/cnn/pode_detector.mp4', 'rb')
     video_bytes2 = video_file2.read()
     
-    col3.video(video_bytes2)
+    col2.video(video_bytes2)
     col3.write('___')
     col3.write(""" - ##### The process that needed to mensurate the productivity. """)
     col3.write('___')
