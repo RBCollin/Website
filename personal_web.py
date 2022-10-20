@@ -44,7 +44,19 @@ with st.sidebar:
         
     )
 
-
+    
+st.markdown('''
+    <a href="javascript:document.getElementsByClassName('css-y4qlto e1fqkh3o1')[1].click();" target="_self">
+        <img src="https://i.ibb.co/yP2wjhW/jaka-02.png" alt="Logo JAKA" style="width:50px;height:50px;"/>
+    </a>
+    ''', unsafe_allow_html=True)
+    
+    
+    
+    
+    
+    
+    
 if selected == 'Main Projects':
     coluna1,coluna2,coluna3 = st.columns([0.3,1,0.3])
 
