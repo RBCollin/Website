@@ -18,7 +18,11 @@ def local_css(file_name):
 local_css("style/style.css")
 
 with st.sidebar:
-    
+    st.markdown('''
+    <a href="javascript:document.getElementsByClassName('css-1ydp377 edgvbvh6')[1].click();">
+        <img src="https://i.ibb.co/yP2wjhW/jaka-02.png" alt="Logo JAKA" style="width:50px;height:50px;"/>
+    </a>
+    ''', unsafe_allow_html=True)
     selected = option_menu(
         menu_title = 'Bernard Collin - Data Scientist',
         options = ['About Me','Main Projects'],
@@ -32,11 +36,7 @@ with st.sidebar:
                 "nav-link": {"font-size": "12px", "text-align": "left", "margin":"0px", "--hover-color": "#eee"},
                 "nav-link-selected": {"background-color": "#00172B","font-size": "14px"},
             }
-        st.markdown('''
-    <a href="javascript:document.getElementsByClassName('css-1ydp377 edgvbvh6')[1].click();">
-        <img src="https://i.ibb.co/yP2wjhW/jaka-02.png" alt="Logo JAKA" style="width:50px;height:50px;"/>
-    </a>
-    ''', unsafe_allow_html=True)
+        
     )
 
 
