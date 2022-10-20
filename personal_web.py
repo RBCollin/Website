@@ -12,7 +12,7 @@ st.set_page_config(layout="wide", page_title="Bernard's Webpage", page_icon=":ba
     <a href="javascript:document.getElementsByClassName('css-1ydp377 edgvbvh6')[1].click();">
         <img src="https://i.ibb.co/yP2wjhW/jaka-02.png" alt="Logo JAKA" style="width:50px;height:50px;"/>
     </a>
-    ''', unsafe_allow_html=True)
+    ''', unsafe_allow_html=True
 )
 
 def local_css(file_name):
