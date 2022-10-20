@@ -15,7 +15,7 @@ def local_css(file_name):
     with open(file_name) as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
         st.markdown('''
-    <a href="javascript:document.getElementsByClassName('css-9s5bis edgvbvh3')[1].click();>
+    <a href="javascript:document.getElementsByClassName('css-9s5bis edgvbvh3')[1].click();" target="_self">
         <img src="https://i.ibb.co/yP2wjhW/jaka-02.png" alt="Logo JAKA" style="width:50px;height:50px;"/>
     </a>
     ''', unsafe_allow_html=True
