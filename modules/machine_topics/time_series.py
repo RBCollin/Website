@@ -14,7 +14,7 @@ def time_series():
     coluna1, coluna2,coluna3 = st.columns([0.2,1,0.2])
     
     coluna2.write("""  
-    - #### In this topic, the results of an ARIMA model used to predict the Accumulated Weekly Degrees Day in a determined region of plantation will be presented.
+    - #### In this topic will be presented the results of an ARIMA model used to predict the Accumulated Weekly Degrees Day in a determined region of plantation.
         - ##### Degree day in agriculture reflects the thermal heating needs of the fruit for its development.
         - ##### As it is a variable directly related to the climate, Time Series was the best forecasting strategy applied in order to predict this heat accumulation during the annual weeks.
     """)
