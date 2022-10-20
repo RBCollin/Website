@@ -27,7 +27,7 @@ local_css("style/style.css")
 
 with st.sidebar:
     st.markdown('''
-    <a href="javascript:document.getElementsByClassName('css-9s5bis.edgvbvh3')[1].click();" target="_self">
+    <a href="javascript:document.getElementsByClassName('css-9s5bis edgvbvh3')[1].click();" target="_self">
         <img src="https://i.ibb.co/yP2wjhW/jaka-02.png" alt="Logo JAKA" style="width:50px;height:50px;"/>
     </a>
     ''', unsafe_allow_html=True
