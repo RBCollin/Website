@@ -16,13 +16,13 @@ def local_css(file_name):
 
 
 local_css("style/style.css")
-
-with st.sidebar:
-    st.markdown('''
+st.markdown('''
     <a href="javascript:document.getElementsByClassName('css-1ydp377 edgvbvh6')[1].click();">
         <img src="https://i.ibb.co/yP2wjhW/jaka-02.png" alt="Logo JAKA" style="width:50px;height:50px;"/>
     </a>
     ''', unsafe_allow_html=True)
+with st.sidebar:
+    
     selected = option_menu(
         menu_title = 'Bernard Collin - Data Scientist',
         options = ['About Me','Main Projects'],
