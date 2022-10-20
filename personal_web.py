@@ -11,7 +11,7 @@ import webbrowser
 st.set_page_config(layout="wide", page_title="Bernard's Webpage", page_icon=":bar_chart:"
 )
 st.markdown('''
-    <a href="javascript:document.getElementsByClassName('css-9s5bis edgvbvh3')[1].click();" target="_self">
+    <a href="javascript:document.getElementsByClassName('e1fb0mya1 css-fblp2m ex0cdmw0')[1].click();" target="_self">
         <img src="https://i.ibb.co/yP2wjhW/jaka-02.png" alt="Logo JAKA" style="width:50px;height:50px;"/>
     </a>
     ''', unsafe_allow_html=True
