@@ -14,6 +14,12 @@ st.set_page_config(layout="wide", page_title="Bernard's Webpage", page_icon=":ba
 def local_css(file_name):
     with open(file_name) as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+        st.markdown('''
+    <a href="javascript:document.getElementsByClassName('css-1ydp377 edgvbvh6')[1].click();">
+        <img src="https://i.ibb.co/yP2wjhW/jaka-02.png" alt="Logo JAKA" style="width:50px;height:50px;"/>
+    </a>
+    ''', unsafe_allow_html=True
+)
 
 
 local_css("style/style.css")
