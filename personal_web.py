@@ -8,7 +8,7 @@ import webbrowser
 
 
 
-st.set_page_config(layout="wide", page_title="Bernard's Webpage", page_icon=":bar_chart:"
+st.set_page_config(layout="wide", page_title="Bernard's Webpage", page_icon=":bar_chart:",initial_sidebar_state="expanded"
 )
 
 
