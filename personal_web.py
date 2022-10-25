@@ -26,8 +26,7 @@ local_css("style/style.css")
 
 
 with st.sidebar:
-    my_component(greeting="hello")
-    
+        
     
     selected = option_menu(
         menu_title = 'Bernard Collin - Data Scientist',
