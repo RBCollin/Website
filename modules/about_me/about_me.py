@@ -41,7 +41,10 @@ def about_me():
         
         st.write('-  Then, still in college with a good base of statistics and mathematics acquired, I sought to specialize in Data Science and Python, I started to study Python and Machine Learning while still in college to combine the vision of Data Science with Production Engineering, with that I was able to do my final course project using practical knowledge in both areas (this project can be consulted in the Published Works section).')
         
-        st.write(' - ###### Finally, close to finishing my undergraduate course I got a job as a Data Scientist in the largest producer and exporter of mangoes in Brazil, where I could develop myself and develop a series of Data Analysis, Automation and Artificial Intelligence projects, and some of them, you can be consult it on this website.')
+        st.write(' - ###### Next, close to finishing my undergraduate course I got a job as a Data Scientist in the largest producer and exporter of mangoes in Brazil, where I could develop myself and develop a series of Data Analysis, Automation and Artificial Intelligence projects.')
+        
+        st.write(' - ###### Today I work at one of the largest business consulting firms in Latin America, providing services to large companies and multinationals. I work as a consultant in Data Analysis and Artificial Intelligence, working daily on projects using agile methodology (Scrum) and Kanban together with the teams involved.')
+        
         st.write('___')
 
     colu1, colu2 = st.columns([1,0.1])
