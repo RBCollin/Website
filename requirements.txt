@@ -7,7 +7,7 @@ streamlit
 openpyxl
 lxml
 base58
-streamlit-lottie
+streamlit-lottie==0.0.3
 streamlit-option-menu
 
 bokeh==2.4.3
