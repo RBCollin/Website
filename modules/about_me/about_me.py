@@ -34,12 +34,12 @@ def about_me():
         st.success('## Professional Background:')
         st.write('___')
 
-        st.write(' - First, during Production Engineering college I worked as a volunteer for a junior company at the university, where I provided Production Engineering consulting services to other companies in the university region, during this period I worked as a Project Advisor and Quality Advisor. My responsibility was the development and implementation of the 5S model in the company as well as a new Personal/Professional Performance Feedback model.')
+        st.write(' - First, during Production Engineering college I worked as a volunteer for a junior company at the university, where I provided Production Engineering consulting services to other companies in the university region, during this period I worked as a Project Advisor and Quality Advisor.')
 
         st.write(' - ###### After that period, I started my internship as a Production Engineering, where I worked on the standardization and mapping of the internal processes of a grape producing farm in the region of São Francisco Valley.')
 
         
-        st.write('-  Then, still in college with a good base of statistics and mathematics acquired, I sought to specialize in Data Science and Python, I started to study Python and Machine Learning while still in college to combine the vision of Data Science with Production Engineering, with that I was able to do my final course project using practical knowledge in both areas (this project can be consulted in the Published Works section).')
+        st.write('-  Then, I started to study Python and Machine Learning while still in college to combine the vision of Data Science with Production Engineering, with that I was able to do my final course project using practical knowledge in both areas (this project can be consulted in the Published Works section).')
         
         st.write(' - ###### Close to finishing my undergraduate course I got a job as a Data Scientist in the largest producer and exporter of mangoes in Brazil, where I could develop myself and develop a series of Data Analysis, Automation and Artificial Intelligence projects.')
         
