@@ -159,15 +159,6 @@ def about_me():
                 }
         )
 
-#         if selected == 'CV-Europass':
-#             js = "window.open('https://europa.eu/europass/eportfolio/api/eprofile/shared-profile/4bc33f1f-1cee-4d68-877e-084948f30439?view=html')"  # New tab or window
-#             #js = "window.location.href = 'https://www.streamlit.io/'"  # Current tab
-#             html = '<img src onerror="{}">'.format(js)
-#             div = Div(text=html)
-#             st.bokeh_chart(div)
-
-
-
         if selected == 'Linkedin':
             js = "window.open('https://www.linkedin.com/in/bernard-collin-b4a9b611b/')"  # New tab or window
             #js = "window.location.href = 'https://www.streamlit.io/'"  # Current tab
