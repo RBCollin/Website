@@ -146,8 +146,8 @@ def about_me():
             
         selected = option_menu(
             menu_title = ' ',
-            options = ['Linkedin','Whatsapp','CV-Europass','Git','Gmail'],
-            icons = ['linkedin','whatsapp', 'journal-album','github','envelope'],
+            options = ['Linkedin','Whatsapp','Git','Gmail'],
+            icons = ['linkedin','whatsapp','github','envelope'],
             menu_icon = ' ',
             default_index = 4,
             orientation = 'horizontal',
@@ -159,12 +159,12 @@ def about_me():
                 }
         )
 
-        if selected == 'CV-Europass':
-            js = "window.open('https://europa.eu/europass/eportfolio/api/eprofile/shared-profile/4bc33f1f-1cee-4d68-877e-084948f30439?view=html')"  # New tab or window
-            #js = "window.location.href = 'https://www.streamlit.io/'"  # Current tab
-            html = '<img src onerror="{}">'.format(js)
-            div = Div(text=html)
-            st.bokeh_chart(div)
+#         if selected == 'CV-Europass':
+#             js = "window.open('https://europa.eu/europass/eportfolio/api/eprofile/shared-profile/4bc33f1f-1cee-4d68-877e-084948f30439?view=html')"  # New tab or window
+#             #js = "window.location.href = 'https://www.streamlit.io/'"  # Current tab
+#             html = '<img src onerror="{}">'.format(js)
+#             div = Div(text=html)
+#             st.bokeh_chart(div)
 
 
 
