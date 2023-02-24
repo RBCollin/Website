@@ -149,7 +149,7 @@ def about_me():
             options = ['Linkedin','Whatsapp','Git','Gmail'],
             icons = ['linkedin','whatsapp','github','envelope'],
             menu_icon = ' ',
-            default_index = 4,
+            default_index = 3,
             orientation = 'horizontal',
             styles={
                     "container": {"padding": "0!important", "background-color": "##00172B"},
