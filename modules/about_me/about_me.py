@@ -109,6 +109,9 @@ def about_me():
         st.write(' ')
         st.write(' ')
         st.write(' ')
+        st.write(' ')
+        st.write(' ')
+        st.write(' ')
         def get_lottie(url):
             r = requests.get(url)
             if r.status_code != 200:
@@ -116,7 +119,7 @@ def about_me():
             return r.json()
         
         lottie_icon = get_lottie('https://assets5.lottiefiles.com/packages/lf20_LmW6VioIWc.json')
-        st_lottie(lottie_icon, height = 450, key = 'lttie')
+        st_lottie(lottie_icon, height = 350, key = 'lttie')
         
     with st.container():
 
