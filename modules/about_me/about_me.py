@@ -104,14 +104,14 @@ def about_me():
 
     with col2:
         st.write(' ')
-        st.write(' ')
-        st.write(' ')
-        st.write(' ')
-        st.write(' ')
-        st.write(' ')
-        st.write(' ')
-        st.write(' ')
-        st.write(' ')
+        st.write('  ')
+        st.write('   ')
+        st.write('    ')
+        st.write('     ')
+        st.write('      ')
+        st.write('       ')
+        st.write('         ')
+        st.write('          ')
         def get_lottie(url):
             r = requests.get(url)
             if r.status_code != 200:
