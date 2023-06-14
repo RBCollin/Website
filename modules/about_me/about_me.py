@@ -81,6 +81,9 @@ def about_me():
         - #### Machine Learning and Deep Learning:
             - Scikit-Learn, XGBoost;
             - Unsurpervised and Supervised Learning;
+            - Optimization Algorithms: Hill climbing, Simulated Annealing, and Genetic algorithms
+            - MLOps: MLFlow
+            - Pipeline: Kedro
             - PyTorch;
             - Convolutional Neural Networks;
             - Artificial Neural Networks;
