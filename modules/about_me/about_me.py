@@ -110,7 +110,7 @@ def about_me():
                 return None
             return r.json()
         st.write(' ')
-        lottie_icon = get_lottie('https://assets9.lottiefiles.com/packages/lf20_yswivetl.json')
+        lottie_icon = get_lottie('https://assets5.lottiefiles.com/packages/lf20_LmW6VioIWc.json')
         st_lottie(lottie_icon, height = 450, key = 'lttie')
         
     with st.container():
