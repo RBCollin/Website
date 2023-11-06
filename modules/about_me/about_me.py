@@ -43,7 +43,7 @@ def about_me():
         
         st.write(' - ###### Close to finishing my undergraduate course I got a job as a Data Scientist in the largest producer and exporter of mangoes in Brazil, where I could develop myself and develop a series of Data Analysis, Automation and Artificial Intelligence projects.')
         
-        st.write(' - Today I work at one of the largest business consulting firms in Latin America, providing services to large companies and multinationals. I work as a consultant in Data Analysis and Artificial Intelligence, working daily on projects using agile methodology (Scrum) and Kanban together with the teams involved.')
+        st.write(' - Then, I worked at one of the largest business consulting firms in Latin America, providing services to large companies and multinationals. I worked as a consultant in Data Analysis and Artificial Intelligence, working daily on projects using agile methodology (Scrum) and Kanban together with the teams involved.')
         
         st.write('___')
 
