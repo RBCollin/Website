@@ -4,7 +4,7 @@ from streamlit_option_menu import option_menu
 import streamlit as st
 import requests 
 from streamlit_lottie import st_lottie
-from bokeh.models.widgets import Div
+#from bokeh.models.widgets import Div
 
 import webbrowser
 
